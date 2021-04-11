@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login Form</title>
+    <link rel="stylesheet" type="text/css" href="../css/login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body class="wallpaper">
+    <div class="bg"></div>
+    <div class="bg bg2"></div>
+    <div class="bg bg3"></div>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">RETROWORLD</a>
+            </div>
+            <ul class="nav navbar-nav" style="float: right;">
+                <li><a href="../html/about.html">About</a></li>
+                <li><a href="../html/content.html">Features</a></li>
+                <li><a href="../html/index.html">Back To Home</a></li>
+            </ul>
+        </div>
+    </nav>
+    <br><br><br><br><br><br><br><br>
+    <div class="login">
+        <form id="login" method="get" action="login.php">
+            <label><b>User Name
+                </b>
+            </label>
+            <input type="text" name="Uname" id="Uname" placeholder="Username">
+            <br><br>
+            <label><b>Password
+                </b>
+            </label>
+            <input type="Password" name="Pass" id="Pass" placeholder="Password">
+            <br><br>
+            <input type="button" name="log" id="log" value="Log In Here">
+            <br><br>
+            <input type="checkbox" id="check">
+            <span>Remember me</span>
+            <br><br>
+            <a href="../html/index.html" style="color: white; font-size: 15px; background-color: #5e5e5e;">Remind Me
+                Later</a>
+        </form>
+    </div>
+</body>
+
+</html>
